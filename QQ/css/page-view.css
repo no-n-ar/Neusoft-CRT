@@ -1,0 +1,154 @@
+.view-title{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap; 
+	/* background-color: #29B6F6; */
+}
+
+
+.view-search{
+	height: 50px;
+	flex: 1;
+}
+
+
+.view-search-img{
+	width: 100%;
+	height: 30px;
+	background-color: #EEEEEE;
+	background-position: center;
+	border-radius: 15px;
+	background-image: url(../img/search.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.page-view-title{
+	height: 22px;
+	width: 95%;
+	
+	display: flex;
+	font-size: 15px;
+	color: #808080;
+	margin-left: 15px;
+	
+}
+
+.page-view-title-left{
+	height: 100%;
+	width: 85%;
+	
+	overflow: scroll;
+}
+
+
+.page-view-title-left-nei{
+	display: flex;
+	
+	height: 100%;
+	width: 950px;
+	
+}
+
+.page-view-title-right{
+	height: 100%;
+	width: 15%;
+	background-image: url(../dy-img/列表.svg);
+	background-position: center; 
+	background-size: 18px;
+	background-repeat: no-repeat;
+}
+			
+.page-view-title-left-nei-items{
+	margin-left: 2px;
+	border-radius: 5px;
+	height: 100%;
+	width: 45px;
+}
+
+
+
+
+.view-content1{
+	height:225px;
+	width:100%;
+	/* display:flex; */
+
+}
+
+.view-content1-top{
+	height: 180px;
+	width: 100%;
+	display: flex;
+}
+
+.view-content1-end{
+	height: 45px;
+	width: 100%;
+}
+
+
+.view-content1-top-left{
+	height: 180px;
+	width: 40%;
+}
+
+
+.view-content1-top-left-img1{
+	height: 180px;
+	width: 100%;
+	background-position: center; 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.view-content1-top-right{
+	height: 180px;
+	width: 60%;
+}
+
+.view-content1-top-right-img2{
+	height: 90px;
+	width: 100%;
+	background-position: center; 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.view-content1-top-right-img3{
+	height: 90px;
+	width: 100%;
+	background-position: center; 
+	background-size: 120%;
+	background-repeat: no-repeat;
+}
+
+
+.view-content2-left{
+	height: 180px;
+	width: 33%;
+	background-position: center; 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.view-content2-center{
+	height: 180px;
+	width: 33%;
+	flex: 1;
+	background-position: center; 
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.view-content2-right{
+	height: 180px;
+	width: 33%;
+	background-position: center; 
+	background-size: cover;
+	background-repeat: no-repeat;
+}

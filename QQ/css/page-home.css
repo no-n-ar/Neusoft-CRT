@@ -1,0 +1,242 @@
+#home-title{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap; 
+	background-color: #29B6F6;
+}
+
+.home-title-left{
+	height: 50px;
+	width: 50px;
+	
+	background-image: url(../img/头像男孩.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+
+
+
+
+.home-title-center{
+	height: 50px;
+	width: 50px;
+	flex:1
+}
+
+.home-title-right{
+	height: 50px;
+	width: 50px;
+	
+	background-image: url(../img/add.svg);
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+	position: relative;
+}
+
+.menu{
+	width: 120px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	margin-top: 53px;
+	margin-left:-73px;
+	display: none;
+}
+
+.menu-detial{
+	height: 28px;
+	width: 100%;
+	display: flex;
+	padding: 2px;
+}
+
+.menu-detial-left{
+	height: 28px;
+	width: 28px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+
+.menu-detial-right{
+	height: 28px;
+	width: 28px;
+	flex: 1;
+	
+	
+}
+
+
+#search{
+	height: 40px;
+	width: 100%;
+	display: flex;
+}
+
+#search input{
+	width: 86%;
+	height: 30px;
+	border-radius: 20px;
+	border: none;
+	background-color: #EEEEEE;
+	background-image: url(../img/search.svg);
+	background-position: 48% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-indent: 52%;
+	outline: none;
+}
+
+/* .search-img{
+	width: 80%;
+	height: 30px;
+	background-color: #EEEEEE;
+	background-position: center;
+	border-radius: 15px;
+	background-image: url(../img/search.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+} */
+
+
+.center{
+	height: 300px;
+	flex: 1;
+	width: 100%;
+	/* background-color: #20B2AA; */
+	display: flex;
+	overflow: scroll;
+}
+
+::-webkit-scrollbar{
+	/* list-style-type: none; */
+	display: none;
+}
+
+
+.button-menus{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #BDBDBD;
+}
+
+.button-menus-message{
+	height: 100%;
+	width: 50px;
+	flex: 1;
+}
+
+.button-menus-message-img{
+	height: 50px;
+	width: 50px;
+	background-image: url(../img/消息.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+
+.button-menus-lainxiren{
+	height: 100%;
+	width: 50px;
+	flex: 1;
+	
+}
+
+.button-menus-lainxiren-img{
+	height: 50px;
+	width: 50px;
+	background-image: url(../img/联系人.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+
+.button-menus-kandian{
+	height: 100%;
+	width: 50px;
+	flex: 1;
+
+}
+
+.button-menus-kandian-img{
+	height: 50px;
+	width: 50px;
+	background-image: url(../img/看点.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+
+.button-menus-qita{
+	height: 100%;
+	width: 50px;
+	flex: 1;
+	
+}
+
+.button-menus-qita-img{
+	height: 50px;
+	width: 50px;
+	background-image: url(../img/动态.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+
+
+
+.center-focus{
+	height: 920px;
+	width: 100%;
+	
+	background-color: #EEEEEE;
+}
+
+
+
+.home-focus{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	
+}
+
+.home-focus-left{
+	height: 50px;
+	width: 60px;
+	background-position: center;
+	background-size: 75%;
+	background-repeat: no-repeat;
+}
+
+.home-focus-center{
+	height: 50px;
+	width: 60px;
+	flex: 1;
+}
+
+.home-focus-right{
+	height: 50px;
+	width: 50px;
+}
+
+.focus-font-title{
+	font-size: 19px;
+}
+
+.focus-font-chat{
+	font-size: 15px;
+	color: #808080;
+}
+
+.kon{
+	height: 5px;
+	width: 100%;
+}

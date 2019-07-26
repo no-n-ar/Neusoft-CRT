@@ -1,0 +1,26 @@
+
+#container{
+	height: 700px;
+	/* width: 400px; */
+	width: 100%;
+	/* position: fixed; */
+	display: flex;
+	flex-flow: column;
+	
+}
+
+.xy-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.y-center{
+	display: flex;
+	align-items: center;
+}
+
+/* 
+.border{
+	border: #DC143C solid 1px;
+} */

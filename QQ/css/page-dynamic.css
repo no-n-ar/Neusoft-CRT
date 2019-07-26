@@ -1,0 +1,43 @@
+.details{
+	height: 40px;
+	width: 100%;
+	display: flex;
+}
+
+.details-left{
+	height: 40px;
+	width: 60px;
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+.details-center{
+	height: 40px;
+	width: 60px;
+	flex: 1;
+	display: flex;
+}
+
+.details-right{
+	height: 40px;
+	width: 35px;
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-image: url(../dy-img/右.svg);
+}
+
+#details-font{
+	font-size: 20px;
+	font-family: 楷体;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+
+.white{
+	height: 18px;
+	width: 100%;
+	background-color: #EEEEEE;
+}

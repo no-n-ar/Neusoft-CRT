@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 微软雅黑;
+}
+
+
+#signal {
+    height: 32px;
+    background: #313131;
+
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+
+    font-size: 14px;
+
+}
+
+#signal-left {
+    height: 32px;
+    flex: 1;
+    display: flex;
+
+    align-items: center;
+
+}
+
+#signal-left div {
+    margin-left: 4px;
+}
+
+#signal-area {
+    height: 18px;
+    width: 40px;
+
+    display: flex;
+    align-items: flex-end;
+}
+.signal-item {
+    width: 5px;
+
+    border-radius: 1px;
+}
+
+#signal-area div:nth-child(1) {
+    height: 6px;
+}
+#signal-area div:nth-child(2) {
+    height: 10px;
+}
+#signal-area div:nth-child(3) {
+    height: 15px;
+}
+#signal-area div:nth-child(4) {
+    height: 19px;
+}
+
+.signal-ok {
+    background-color: white;
+}
+.signal-lose {
+    background-color: grey;
+}
+
+
+
+
+
+.signal-item {
+
+}
+
+#operation {
+    height: 18px;
+}
+
+#xg {
+    height: 18px;
+}
+
+
+#signal-center{
+    height: 32px;
+    width: 70px;
+
+
+}
+
+#signal-right{
+    height: 32px;
+    flex: 1;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*#signal-right div {*/
+/*margin-right: 4px;*/
+/*}*/
+
+#battery-area {
+
+
+    margin-right: 4px;
+    height: 32px;
+    width: 40px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#battery-body {
+    height: 12px;
+    width: 32px;
+    border: 1px solid white;
+    border-radius: 1px;
+	overflow: hidden;
+}
+#head {
+    height: 6px;
+    width: 3px;
+    background-color: whitesmoke;
+    border-radius: 0px 1px 1px 0px;
+}
+
+#battery-core {
+	margin-top:1px;
+    height: 10px;
+    width: 30px;
+    animation: bat 8s linear infinite;
+}
+
+
+@-webkit-keyframes bat{
+				0%{
+					margin-left: -29px;
+					background-color: #212121;
+				}
+				
+				25%{
+					background: #FFEB3B;
+					margin-left: -21px;
+				}
+				
+				50%{
+					background: yellow;
+					margin-left: -13px;
+				}
+				
+				75%{
+					background: #26C6DA;
+					margin-left: -8px;
+				}
+				
+				90%{
+					background: silver;
+					margin-left: -4px;
+				}
+				100%{
+					background: silver;
+				}
+			}
